@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Messi - The GOAT</title>
+  <!-- todo: css -->
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/headers.css">
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <!-- todo: bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap/all.min.css">
+
+</head>
+
+<body style="background-color:#edd8e5;">
+  <!-- todo: start header -->
+  <div style="height: 100px;"
+    class="primary-bg-color position-relative d-lg-none d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div style="width: calc(100% - 50px);" class="search-container d-inline position-absolute top-0 end-0">
+        <input type="text" placeholder="Search" class="search-input">
+        <button type="submit" class="search-button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <div class="row">
+        <img src="pic/5.png" class="d-block text-center cust-img-headers" alt="...">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#Match">Match</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#Ticket">Ticket</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#Shop">Shop</a>
+          </li>
+        </ul>
+
+        <div class="search ps-3 pe-3 d-none d-lg-block">
+          <i class="fa-solid fa-magnifying-glass on-primary"></i>
+          <br>
+          <i class="fa-solid fa-cart-shopping on-primary"></i>
+        </div>
+        <a style="color: var(--on-primary-color);" class="btn rounded-pill main-btn d-none d-lg-block " href="#">My
+          account</a>
+
+
+      </div>
+    </div>
+  </nav>
+  <!-- todo: end header -->
+
+
+
+
+  <!-- todo: start Slider -->
+  <div id="carouselExample" class="carousel slide d-none d-sm-block">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pic/1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pic/2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pic/3.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pic/4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- todo: End Slider -->
+
+
+
+
+
+  <!-- todo: Start Match -->
+  <div id="Match" class="section container">
+    <div class="main-title mb-5 mt-2">
+      <h2 class="text-center">Match</h2>
+      <p class="text-black-50 text-center">Lorem ipsum dolor sit amet codolor sit amet codolor sit amet codolor sit amet
+        co nses. Repudiandae, dignissimos.</p>
+    </div>
+    <table class="matches-table">
+      <thead>
+        <tr>
+          <th class="on-primary">Date</th>
+          <th class="on-primary">Opponent</th>
+          <th class="on-primary">Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>April 5, 2024</td>
+          <td>Real Madrid</td>
+          <td>Santiago Bernabeu</td>
+        </tr>
+        <tr>
+          <td>April 10, 2024</td>
+          <td>Atletico Madrid</td>
+          <td>Camp Nou</td>
+        </tr>
+        <tr>
+          <td>April 10, 2024</td>
+          <td>Atletico Madrid</td>
+          <td>Camp Nou</td>
+        </tr>
+        <tr>
+          <td>April 10, 2024</td>
+          <td>Atletico Madrid</td>
+          <td>Camp Nou</td>
+        </tr>
+        <tr>
+          <td>April 10, 2024</td>
+          <td>Atletico Madrid</td>
+          <td>Camp Nou</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <!-- todo: end Match -->
+
+  <!-- todo: start Ticket -->
+  <div id="Ticket">
+    <div class="ticket  pb-2 pt-2">
+      <div class="container pb-5 pt-5">
+        <div class="main-title mb-5 mt-2">
+          <h2 class="text-center">Ticket</h2>
+          <p class="text-black-50 text-center">Lorem ipsum dolor sit amet codolor sit amet codolor sit amet codolor sit
+            amet co nses. Repudiandae, dignissimos.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">Ticket 1 (50$)</h4>
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary">Ticket 2 (50$)</h4>
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary">Ticket 3 (50$)</h4>
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary">Ticket 3 (50$)</h4>
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary">Ticket 3 (50$)</h4>
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary">Ticket 3 (50$)</h4>
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary">Ticket 3 (50$)</h4>
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary">Ticket 3 (50$)</h4>
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- todo: end Ticket -->
+
+  <!-- todo: start About -->
+  <div id="About" class="container">
+    <div class="ticket  pb-2 pt-2">
+      <div class="container pb-5">
+
+        <div class="main-title mb-5 mt-2">
+          <h2 class="text-center">Why Messi is the GOAT</h2>
+          <p class="text-black-50 text-center">Messi's exceptional skills, consistency, vision, and ability to influence
+            games make him one of the
+            greatest footballers of all time.</p>
+        </div>
+
+
+        <div class="row row-cols-2 row-cols-md-3 ">
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">La Liga</h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                10 times (2004–05, 2005–06, 2008–09, 2009–10, 2010–11, 2012–13, 2014–15, 2015–16, 2017–18, 2018–19)
+              </blockquote>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">Copa del Rey</h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                7 times (2008–09, 2011–12, 2014–15, 2015–16, 2016–17, 2017–18, 2020–21) </blockquote>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">World Cup</h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">Champions League</h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">Copa América</h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">UEFA Super Cup</h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">FIFA Ballon d'Or</h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">Supercopa de España</h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box bg-white">
+              <h4 class="p-3 on-primary ">Coupe du monde des clubs de la FIFA </h4>
+              <img class="text-center" src="pic/t_icon.png" alt="">
+              <blockquote class="text-black-50 p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam odit a eius iure
+              </blockquote>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- todo: end About -->
+
+
+  <!-- todo: start Shop -->
+  <div id="Shop" class="container">
+    <div class="ticket  pb-2 pt-2">
+      <div class="main-title mb-5">
+        <h2 class="text-center">Shop</h2>
+        <p class="text-black-50 text-center">Lorem ipsum dolor sit amet codolor sit amet codolor sit amet codolor sit
+          amet co nses. Repudiandae, dignissimos.</p>
+      </div>
+      <div class="row row-cols-2 row-cols-md-4 ">
+        <div class="col">
+          <div class="card mb-3 fixed-height-card">
+            <img src="pic/t-s-1.jpg" class="card-img-top fixed-height-img " alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product Title</h5>
+              <p class="card-text"><span class="text-success">$99.99</span> <del class="text-danger">$129.99</del></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 fixed-height-card">
+            <img src="pic/t-s-2.jpg" class="card-img-top fixed-height-img " alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product Title</h5>
+              <p class="card-text"><span class="text-success">$99.99</span> <del class="text-danger">$129.99</del></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 fixed-height-card">
+            <img src="pic/t-s-3.jpg" class="card-img-top fixed-height-img " alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product Title</h5>
+              <p class="card-text"><span class="text-success">$99.99</span> <del class="text-danger">$129.99</del></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 fixed-height-card">
+            <img src="pic/t-s-4.jpg" class="card-img-top fixed-height-img " alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product Title</h5>
+              <p class="card-text"><span class="text-success">$99.99</span> <del class="text-danger">$129.99</del></p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card mb-3 fixed-height-card">
+            <img src="pic/t-s-5.jpg" class="card-img-top fixed-height-img " alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product Title</h5>
+              <p class="card-text"><span class="text-success">$99.99</span> <del class="text-danger">$129.99</del></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 fixed-height-card">
+            <img src="pic/t-s-6.jpg" class="card-img-top fixed-height-img " alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product Title</h5>
+              <p class="card-text"><span class="text-success">$99.99</span> <del class="text-danger">$129.99</del></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 fixed-height-card">
+            <img src="pic/t-s-7.jpg" class="card-img-top fixed-height-img " alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product Title</h5>
+              <p class="card-text"><span class="text-success">$99.99</span> <del class="text-danger">$129.99</del></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 fixed-height-card">
+            <img src="pic/t-s-8.jpg" class="card-img-top fixed-height-img " alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product Title</h5>
+              <p class="card-text"><span class="text-success">$99.99</span> <del class="text-danger">$129.99</del></p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!-- todo: end Shop -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer d-flex justify-content-center">
+   <div class="container-fluid">
+    <div class="p-5 row tertity-bg-color">
+      <div class="col-md-4 d-flex flex-column align-items-center">
+        <h5 class="on-tertity mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="align-content-center position-relative">
+            <a class="text-light" href="#">
+              <i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2 "></i>
+            </a>
+            <p class="d-inline position-absolute p-1"></p>
+          </li>
+          <li class="align-content-center position-relative">
+            <a class="text-light" href="#">
+              <i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i>
+            </a>
+            <p class="d-inline position-absolute p-1"></p>
+          </li>
+          <li class="align-content-center position-relative">
+            <a class="text-light" href="#">
+              <i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2 mb-3"></i>
+            </a>
+            <p class="d-inline position-absolute p-1"></p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 on-tertity d-flex align-items-center ">
+        <div>
+          <h5 class="text-black">Lorem ipsum dolor sit amet</h5>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolore reprehenderit itaque eligendi
+            incidunt nisi fuga corrupti dolorum, iure quas facere, aliquid dolor ex, nostrum eum nam maxime? Ducimus,
+            ullam!Lorem ipsum dolor sit amet consectetur, adipisici elit. Magnam voluptat consequat, Lorem ipsum dolor
+            sit amet consectetur, adipisici elit. Magnam voluptat consequat, Lorem ipsum dolor sit amet consectetur,
+            adipisici elit. Magnam voluptat consequat, Lorem ipsum dolor sit amet consectetur, adipisici elit. Magnam
+            voluptat consequat,</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <div>
+          <h4 class="on-tertity">Coming Soon</h4>
+          <div class="card" style="width: 13rem;">
+            <img src="pic/t-s-3.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  </footer>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+@import '../css/styles.css';
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--on-primary-color);
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--white-color);
+}
+
+.navbar .navbar-toggler {
+    color: var(--on-primary-color);
+    font-size: 25px;
+    border-color: var(--on-primary-color);
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+
+
+.cust-navigation {
+    cursor: default;
+    pointer-events: none;
+    color: var(--black-color);
+}
+
+
+.cust-img-headers{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.search-container {
+    margin: 20px;
+    position: relative;
+    width: 200px;
+
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 0px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    background-color: var(--background-color);
+
+}
+
+.search-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.search-button i.fa-search {
+    font-size: 18px;
+}

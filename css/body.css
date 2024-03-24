@@ -1,0 +1,44 @@
+@import '../css/styles.css';
+
+.matches-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: var(--table-gap);
+}
+
+.matches-table th,
+.matches-table td {
+    padding: var(--table-padding);
+    text-align: left;
+    border-bottom: var(--table-border) solid var(--text-color);
+}
+
+.matches-table th {
+    background-color: var(--primary-color);
+}
+
+.matches-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* todo */
+
+.ticket .box h4 {
+    background-color: var(--primary-color);
+}
+
+img[src="pic/t_icon.png"] {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+.fixed-height-card {
+    height: 400px;
+}
+
+.fixed-height-img {
+    height: 300px;
+    object-fit: cover;
+}
